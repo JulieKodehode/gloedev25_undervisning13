@@ -1,0 +1,21 @@
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLogo {
+  width: 32px;
+}
+
+/* MAIN */
+main {
+  min-height: 100vh;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
