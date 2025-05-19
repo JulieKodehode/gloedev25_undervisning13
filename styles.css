@@ -9,8 +9,45 @@ header {
 }
 
 /* MAIN */
-main {
+section {
   min-height: 100vh;
+}
+
+/* Husk sett opp responsive 426px for column i mobil */
+.sectionHero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImg {
+  background-color: #1D7874; /* Placeholder for bilde */
+  width: 50%;
+}
+
+.heroText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Om forbi column - separert div ikke nødvendig */
+.heroButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.heroButtons button {
+  background-color: #1D7874;
+}
+
+/* Trenger transition for smooth overgang */
+.heroButtons button:hover {
+  background-color: #679289;
 }
 
 /* FOOTER */
