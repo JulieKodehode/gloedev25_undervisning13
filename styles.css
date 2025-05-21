@@ -56,3 +56,25 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+/* menu.html */
+#pizzaCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pizzaCard {
+  border: 1px solid black; /* Placeholder under test fasen*/
+}
+
+.pizzaCardImg {}
+
+.pizzaCardTitle {
+  text-transform: uppercase;
+}
+
+.pizzaCardDescription {}
+
+.pizzaCardPrize {
+  font-weight: bold;
+}
